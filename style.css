@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+#head{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    color: rgb(67, 214, 177);
+    text-decoration: none;
+}
+.link:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+#login{
+    
+        display: inline-block;
+        background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+        border: 2px solid white;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        padding: 70px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 111px;
+        margin-top: 20px;
+        margin-left: 450px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.name {
+    margin: 9px;
+    border-radius: 12px;
+    text-decoration: overline;
+    padding: 13px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#button{
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: gray;
+}
+
+#button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#account{
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: gray;
+
+}
+
+#sign{
+    text-decoration: none;
+    color: black;
+}
+#sign:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#header{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#signup{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 111px;
+    margin-top: 2px;
+    margin-left: 438px;
+    width: 325px;
+    height: 550px;
+    padding: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.name1{
+    margin: 5px;
+    border-radius: 12px;
+    text-decoration: overline;
+    padding: 13px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+}
+.name2{
+    font-size: 20px;
+    color: rgb(68, 220, 240);
+}
+.btn2{
+    
+        border-radius: 12px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin: 5px;
+        background-color: gray;
+    
+}
+
+.btn2:hover{
+    color: white;
+    cursor: pointer;
+}
+.btn7:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.btn7{
+    text-decoration: none;
+    color: black;
+}
+
+.error{
+    color: red;
+}
+.error input{
+    border: 2px solid red ;
+    color: red;
+}
+.success input {
+    border: 2px solid rgb(5, 255, 5);
+    color: rgb(14, 252, 14);
+}

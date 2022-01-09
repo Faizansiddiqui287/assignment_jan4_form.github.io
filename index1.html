@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBoom Login Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- This is for header -->
+    <div id="head">
+        <h1><a href="http://www.techboom.in" class="link" target="blank">TechBoom Login</a></h1>
+    </div>
+
+    <!-- This is for login page -->
+    <div id="login">
+        <form action="#">
+            <input type="text" class="name" name="txt" placeholder="Enter Your Email" pattern=".+@.+\..+"
+                title="enter valid email address" required>
+            <input type="password" class="name" placeholder="Password" name="pd"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                required>
+            <button id="button">Login</button>
+            <a href="#" class="name" style="color: blanchedalmond; font-size: 15px;">Forgotton Password ?</a>
+            <hr>
+            <button id="account"><a href="index.html" target="blank" id="sign">Sign up</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
